@@ -1,6 +1,6 @@
 cwlVersion: v1.0
 class: CommandLineTool
-baseCommand: julia /tool/MentaLiST.jl
+baseCommand: julia /tools/MentaLiST/src/MentaLiST.jl call
 inputs:
   output_filename:
     type: string
